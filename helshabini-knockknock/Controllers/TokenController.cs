@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace helshabini_knockknock.Controllers
 {
-    [Route("[api/controller]")]
+    [Route("[api/[controller]")]
     public class TokenController : Controller
     {
         [HttpGet]

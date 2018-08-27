@@ -5,7 +5,7 @@ using System;
 
 namespace helshabini_knockknock.Controllers
 {
-    [Route("[api/controller]")]
+    [Route("[api/[controller]")]
     public class TriangleTypeController : Controller
     {
         [HttpGet]
