@@ -5,7 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace helshabini_knockknock.Controllers
 {
-    [Route("[api/[controller]")]
+    [Route("api/[controller]")]
+    [ApiController]
     public class ReverseWordsController : Controller
     {
         [HttpGet]
