@@ -12,5 +12,5 @@ variables:
 steps:
 - script: |
     dotnet build --configuration $(buildConfiguration)
-    dotnet test '**/*Test/*.csproj'
+    dotnet test '~/work/1/s/helshabini-knockknock.Test/helshabini-knockknock.Test.csproj'
   displayName: 'dotnet build $(buildConfiguration)'
